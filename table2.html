@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Merged Cells</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td rowspan="3">Column 1 (Merged)</td>
+            <td colspan="2">Column 2 and 3 (Merged)</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">Column 2 and 3 (Merged)</td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+</body>
+</html>

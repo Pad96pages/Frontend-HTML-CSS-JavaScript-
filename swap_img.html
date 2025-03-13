@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap Images</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+    <script>
+        // Function to swap images
+        function swapImages() {
+            const image1 = document.getElementById("image1");
+            const image2 = document.getElementById("image2");
+
+            // Swap the src attributes of the two images
+            const tempSrc = image1.src;
+            image1.src = image2.src;
+            image2.src = tempSrc;
+        }
+    </script>
+</head>
+<body>
+    <h1>Image Swapper</h1>
+    <div class="image-container">
+        <img id="image1" src="C:\Users\asus\Desktop\hanumanji.jpg" alt="Image 1">
+<img id="image2" src="C:\Users\asus\Desktop\shivji.jpg" alt="Image 2">
+
+    </div>
+    <button onclick="swapImages()">Swap Images</button>
+</body>
+</html>
