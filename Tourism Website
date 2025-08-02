@@ -83,17 +83,17 @@
     </nav>
     <div class="container">
         <div class="destination">
-            <img src="C:\Users\asus\Desktop\fwd\pic8.jpg" alt="Japan">
+            <img src="your-image.jpg" alt="Japan">
             <h2>Japan</h2>
             <p>Experience the blend of traditional culture and modern technology in Japan.</p>
         </div>
         <div class="destination">
-            <img src="C:\Users\asus\Desktop\fwd\pic7.jpg" alt="India">
+            <img src="your-image.jpg" alt="India">
             <h2>India</h2>
             <p>Explore the vibrant traditions, ancient monuments, and diverse landscapes of India.</p>
         </div>
         <div class="destination">
-            <img src="C:\Users\asus\Desktop\fwd\pic9.jpg" alt="Sri Lanka">
+            <img src="your-image.jpg" alt="Sri Lanka">
             <h2>Sri Lanka</h2>
             <p>Discover the tropical beauty, tea plantations, and stunning beaches of Sri Lanka.</p>
         </div>
