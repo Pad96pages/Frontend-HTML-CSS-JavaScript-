@@ -1,6 +1,6 @@
 # Frontend Static Website
 
-This is a simple static website built using **HTML**, **CSS**, and **JavaScript**. The project demonstrates a clean layout and basic frontend design that can be used as a template or starting point for any small website.
+These are simple static website built using **HTML**, **CSS**, and **JavaScript**. The project demonstrates a clean layout and basic frontend design that can be used as a template or starting point for any small website.
 
 ## 🚀 Features
 
